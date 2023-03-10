@@ -5,9 +5,9 @@ import ImageChan from "./components/ImageChan";
 
 function App() {
   return (
-    <>
+    <> 
       {/* start header*/}
-      <Header name="mahdi" jobTitle="Front end dev" disc=""/>
+      <Header creatorName="mahdi amari"/>
       {/* end header*/}
       {/* start transform*/}
       <Transform />
