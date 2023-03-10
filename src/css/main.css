@@ -88,6 +88,14 @@ header .container nav a.contactBtn:hover {
   background-color: #23303e;
   color: #fad400;
 }
+.creatorName{
+  margin: 0;
+}
+
+.acH1{
+  margin-bottom: 10px;
+}
+
 header .container nav::after {
   content: "";
   position: absolute;

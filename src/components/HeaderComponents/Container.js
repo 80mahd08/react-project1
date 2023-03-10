@@ -7,7 +7,12 @@ const Container = (props) => {
     <div className="container">
       <TopPart />
       <Nav />
-      <ContentPart creatorName={props.creatorName}/>
+      <ContentPart
+        p={{
+          creatorName: props.creatorName,
+          class: "creatorName",
+        }}
+      />
     </div>
   );
 };
